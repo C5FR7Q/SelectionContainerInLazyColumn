@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                     item { Placeholder(alpha = 0.9f) }
                     item { Placeholder(alpha = 0.8f) }
                     item { Placeholder(alpha = 0.7f) }
-                    item(contentType = "Foo") {
+                    item {
                         SelectionContainer(
                             modifier = Modifier
                                 .background(Color.LightGray)
